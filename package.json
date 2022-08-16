@@ -1,0 +1,16 @@
+{
+  "name": "openai2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "brittle --coverage --bail test/query.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brittle": "^3.0.4",
+    "openai": "^3.0.0"
+  }
+}
